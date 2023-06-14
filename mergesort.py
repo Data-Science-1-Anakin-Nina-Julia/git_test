@@ -48,7 +48,6 @@ import matplotlib.pyplot as plt
 
 #create list
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-<<<<<<< HEAD
 x = range(len(my_list))
 plt.bar(x, my_list)
 plt.x_label('Position in der Liste')
@@ -61,5 +60,4 @@ plt.bar(x, my_list)
 plt.x_label('Position in der Liste')
 plt.y_label('Eintrag in der Liste')
 plt.title('Liste sortiert')
->>>>>>> main
 plt.show()
