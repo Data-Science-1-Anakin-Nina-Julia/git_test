@@ -48,17 +48,18 @@ import matplotlib.pyplot as plt
 
 #create list
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-
-#create x_range as range of x-values for plotting
-x_range = range(len(my_list))
-
-#plot
-plt.plot(x_range, my_list)
+<<<<<<< HEAD
+x = range(len(my_list))
+plt.bar(x, my_list)
+plt.x_label('Position in der Liste')
+plt.y_label('Eintrag in der Liste')
+plt.title('Liste ohne Änderung')
 plt.show()
-
-#sort via above algotihm
-merge_sort(my_list)
-
-#plot result (sorted list)
-plt.plot(x_range, my_list)
+mergeSort(my_list)
+x = range(len(my_list))
+plt.bar(x, my_list)
+plt.x_label('Position in der Liste')
+plt.y_label('Eintrag in der Liste')
+plt.title('Liste sortiert')
+>>>>>>> main
 plt.show()
